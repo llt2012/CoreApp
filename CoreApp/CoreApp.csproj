@@ -11,4 +11,12 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.7" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppCore.Application\AppCore.Application.csproj" />
+    <ProjectReference Include="..\AppCore.Data.EF\AppCore.Data.EF.csproj" />
+    <ProjectReference Include="..\AppCore.Data\AppCore.Data.csproj" />
+    <ProjectReference Include="..\AppCore.Infrastructure\AppCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\AppCore.Ultilities\AppCore.Ultilities.csproj" />
+  </ItemGroup>
+
 </Project>
